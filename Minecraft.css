@@ -1,0 +1,83 @@
+.contain{
+    display: grid;
+    grid-template: "greet greet greet""main side side" "end end end";
+    text-align: center
+}
+.main {
+    grid-area: main;
+}
+.side {
+    grid-area: side;
+    background-color: rgb(94, 86, 86);
+    border: solid 4px lime;
+    border-radius: 100px
+}
+.greet{
+    grid-area: greet;
+    color: rgb(73, 121, 192);
+    background: rgb(92, 88, 88);
+    border: solid blue 4px;
+}
+.hide {
+    color: rgb(94, 86, 86);
+}
+body{
+    background: rgb(114, 105, 105);
+}
+.h1{
+    color: rgb(46, 223, 30);
+    text-align: center;
+    font-size: 5em;
+    border: solid brown 6px;
+    border-radius: 20%;
+    background: rgb(82, 80, 80);
+}
+h3{
+    color: #ffee01;
+    text-align: center;
+    font-style: inherit;
+    font-size: 2em;
+}
+h4{
+    color: #887cee;
+    font-size: 1.8em;
+}
+ol {
+    color: #802dc0;
+    text-align: center;
+    background-color: rgb(68, 64, 64);
+    border: rgb(76, 180, 76) solid 5px;
+    padding: 20px 10px 20px 10px;
+}
+li {
+    padding-top: 20px;
+}
+p {
+    font-size: 1.5em;
+}
+.mimo {
+    border: #2b2374 solid 3px;
+    border-radius: 300px;
+}
+ul {
+    color: #802dc0;
+    text-align: center;
+    background-color: rgb(85, 81, 81);
+    border: rgb(76, 180, 76) solid 5px;
+    padding: 20px 10px 20px 10px;
+}
+.end {
+    grid-area: end;
+    color: white;
+    background: black;
+    text-align: center;
+}
+header {
+    border-top: solid black 10px;
+    border-left: solid black 10px;
+    border-right: solid black 10px;
+    border-radius: 200px;
+}
+a {
+    color: lime;
+}
